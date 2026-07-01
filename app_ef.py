@@ -11,9 +11,9 @@ from streamlit_pdf_viewer import pdf_viewer
 # =======================
 # CONFIGURACIÓN
 # =======================
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-MONGODB_URI = os.getenv("MONGODB_URI")
-COHERE_API_KEY = os.getenv("COHERE_API_KEY")
+GOOGLE_API_KEY = os.getenv("AQ.Ab8RN6KvKN1kvNU3AZ8G76078KiKwtL3ay8kQ8gJ_hKQ9AJPSg")
+MONGODB_URI = os.getenv("mongodb+srv://rodie916:rodie916@cluster-ef-drmm.dfulbfh.mongodb.net/?appName=CLUSTER-EF-DRMM")
+COHERE_API_KEY = os.getenv("2Hi8kmTbsMTy9TbT7boD2U0b8zjV0XoxAImj6x5a")
 USER = os.getenv("USER", "")
 
 if not GOOGLE_API_KEY or not MONGODB_URI:
