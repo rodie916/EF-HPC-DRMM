@@ -180,7 +180,7 @@ Responde en español, de forma clara.
 # =======================
 
 st.set_page_config(page_title="ChatBot", page_icon="📚")
-st.title("📚 Chat con PDFs en MongoDB + Gemini + Cohere: " + USER)
+st.title("📚 Sube cualquier PDF que tengas. Nosotros lo analizamos. " + USER)
 
 archivo_pdf = st.file_uploader("📤 Sube un PDF", type=["pdf"])
 
@@ -197,7 +197,7 @@ if archivo_pdf:
 
 # ---------------- Chat ----------------
 
-st.subheader("💬 Pregunta sobre el contenido del PDF")
+st.subheader("Aquí puedes realizar cualquier pregunta que tengas sobre tu archivo pdf:")
 
 if "historial" not in st.session_state:
     st.session_state.historial = []
